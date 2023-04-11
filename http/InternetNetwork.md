@@ -8,3 +8,49 @@ IP - Internet protocol
 - 한계
   - 비연결성: 패킷을 받을 대상이 없어도 패킷 전송 가능
   - 비신뢰성: 중간에 패킷 소실 가능, 패킷 전달 순서 문제 발생 가능
+
+
+
+TCP - Transmission control protocol
+
+: 전송 제어 프로토콜
+
+- 연결지향 - TCP 3 way handshake(가상 연결)
+- 데이터 전달 보증 -> 데이터를 전송하고 잘 받았다는 신호를 보낸다.
+- 순서 보장 -> 패킷이 순서대로 오지 않으면 다시 보내라는 요청을 보낸다.
+- 신뢰 가능한 프로토콜!!
+
+
+
+인터넷 프로토콜 스택의 4계층
+
+- 애플리케이션 계층 - HTTP, FTP
+- 전송 계층 - TCP, UDP
+- 인터넷 계층 - IP
+- 네트워크 인터페이스 계층
+
+
+
+TCP 3 way handshake
+
+1. SYN: 접속 요청
+
+2. SYN + ACK
+
+3. ACK: 요청 수락
+
+
+
+UDP - User datagram protocol
+
+: 사용자 데이터그램 프로토콜
+
+- 기능이 거의 없음
+- 연결 지향!! -> 3 way handshake X
+- 데이터 전달 보증 X
+- 순서 보장 X
+- 단순하고 빠름
+- IP와 비슷
+
+
+
