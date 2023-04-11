@@ -9,7 +9,7 @@ IP - Internet protocol
   - 비연결성: 패킷을 받을 대상이 없어도 패킷 전송 가능
   - 비신뢰성: 중간에 패킷 소실 가능, 패킷 전달 순서 문제 발생 가능
 
-
+-----
 
 TCP - Transmission control protocol
 
@@ -52,7 +52,7 @@ UDP - User datagram protocol
 - 단순하고 빠름
 - IP와 비슷
 
-
+-----
 
 PORT
 
@@ -65,3 +65,12 @@ PORT
   - Telnet - 23
   - http - 80
   - https - 443
+
+-----
+
+DNS - Domain name system
+
+: IP 주소와 기억하기 쉬운 domain 이름을 매칭해주는 시스템
+
+- IP는 기억하기 어려우며 언제든 변경 가능
+- dns에서 해당 도메인으로 요청이 들어오면 IP로 매칭시켜준다
